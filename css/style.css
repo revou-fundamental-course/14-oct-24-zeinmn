@@ -1,1 +1,63 @@
-/* ini css */
+@media only screen and (max-width: 600px) {
+  #main-head {
+    flex-direction: column;
+  }
+  .navi {
+    flex-direction: column;
+  }
+  div > nav > button {
+    width: 100%;
+    padding-right: -20px;
+  }
+  .logo {
+    margin-bottom: 15px;
+  }
+}
+
+body > header {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#main-head {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: auto;
+  height: 60px;
+  margin-right: 8px;
+  border-radius: 4px;
+  display: flex;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* background navbar */
+.topnav {
+  background-color: rgb(20, 112, 55);
+  overflow: hidden;
+}
+
+/* style navbar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* perubahan warna saat link navbar */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* posisi navbar */
+.topnav-right {
+  float: right;
+}
