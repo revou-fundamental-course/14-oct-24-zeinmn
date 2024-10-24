@@ -126,3 +126,72 @@ p.quotes {
   flex-direction: column;
   margin-left: 15%;
 }
+
+/* style form*/
+.body-form {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between; /* Memisahkan form dan output */
+  align-items: flex-start; /*Menyelaraskan elemen di bagian atas */
+}
+
+form {
+  background-color: rgb(20, 112, 55);
+  padding: 10px;
+  border-radius: 8px;
+  border-radius: 8px;
+  max-width: 350px;
+  flex: 1;
+  margin-right: 10px; /* Memberikan jarak antara form dan output */
+}
+
+label {
+  color: white;
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 80%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ddd;
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 85%;
+  transition: background-color 0.3s;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+/* style tampilan data form */
+#output {
+  background-color: #ddd;
+  border: 2px solid rgb(20, 112, 55);
+  padding: 14px;
+  border-radius: 5px;
+  flex: 1; /* Memungkinkan area output menggunakan ruang yang tersedia */
+}
+
+footer {
+  text-align: center;
+  font-style: bold;
+}

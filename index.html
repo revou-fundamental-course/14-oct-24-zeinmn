@@ -30,7 +30,7 @@
 
     <!-- Konten -->
     <main>
-      <!--section home-->
+      <!-- section home -->
       <section id="home">
         <header>
           <h2>Welcome to My Website, <span id="name"> Bageur </span>!</h2>
@@ -94,16 +94,51 @@
           </p>
         </article>
       </section>
-
+      <hr />
       <!-- section message -->
-      <section id="message">
+      <section id="message"></section>
         <header>
-          <h2>Message</h2>
-        </header>
+          <h1 class="title">Message Us</h1s>
+        </Header>
+        <Article>
+          <div class="body-form">
+            <div style="display: flex; flex-direction: row; flex: 1;">
+              <form id="dataForm">
+                <fieldset>
+                  <label>Nama:</label>
+                  <input type="text" id="nama" placeholder="Nama Anda" / required>
 
-        <article></article>
-      </section>
+                  <label>Jenis Kelamin:</label>
+                  <select id="gender" required>
+                    <option value="">Pilih</option>
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                  </select>
+
+                  <label>Tanggal Lahir:</label>
+                  <input type="date" id="tanggal" / required>
+
+                  <label>Email:</label>
+                  <input type="email" id="email" placeholder="Email Anda" / required>
+
+                  <label>Komentar:</label>
+                  <textarea id="komen" rows="4" placeholder="Pesan dan Harapan" required></textarea>
+
+                  <button type="submit"><b>Kirim</b></button> 
+                </fieldset>
+              </form>
+
+              <div id="output" style="display: none;"></div>
+            </div>
+          </div>
+        </Article>
     </main>
+    <hr>
+
+    <!-- footer -->
+    <footer>
+      &copy; ZEINMN - 2024
+    </footer>
   </body>
   <script src="js\script.js"></script>
 </html>
